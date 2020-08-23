@@ -1,0 +1,225 @@
+*{
+    padding:0;
+    margin:0;
+}
+img{
+    width:6.5em;
+    height:6.5em;
+}
+@media only screen and (min-width:800px)
+{
+    nav{
+        background-color: hsla(348, 89%, 47%,0.9);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+    }
+    nav ul, footer ul{
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        margin:1em;
+    }
+    
+    nav button{
+        padding:0.5em;
+        outline: none;
+        margin:0.1em 1em;
+        background-color:#4eb5f1;
+        border-radius: 1em;
+    }
+    nav a{
+        color: whitesmoke;
+    }
+    main{
+        width:80%;
+        background-color:hsla(354,70%,60%,0.3);
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #features{
+        margin-top:13em;
+        display: block;       
+    }
+    #features p{
+        font-size: 3em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #features form{
+        display: flex;
+        justify-content:center;
+        margin:2em;
+        align-content: center;
+    }
+    #features input{
+        margin:0 1em;
+        padding:0.7em;
+        border-radius: 0.3em;
+    }
+    #features #submit{
+        border-radius: 2em;
+        color:whitesmoke;
+        background-color:#4eb5f1;
+        outline: none;
+    }
+    #features #submit:active{
+        background-color:hsl(202, 85%, 53%);
+    }
+    article{
+        margin:3em;
+        display: flex;
+    }
+    article .heading
+    {
+        font-size:2.3em;
+        font-weight: 900;
+    }
+    article p{
+        font-size:1.5em;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        padding:1em;
+    }
+    .menu fieldset{
+        margin:1em;
+        padding:1em;
+    }
+    .menu fieldset p{
+        text-align: center;
+    }
+    .menu .name{
+        font-size: 1.7em;
+        font-weight: 600;
+    }   
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:100%;
+        background-color:coral;
+    }
+    footer li{
+        margin:0 2em;
+    }
+    footer p{
+        margin:1em;
+    }
+ 
+}
+@media only screen and (max-width:800px){
+    nav{
+        background-color:cornflowerblue;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    nav ul{
+        padding:1em;
+        list-style: none;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a{
+        color:white;
+    }
+    nav button{
+        width:150px;
+        background-color: #4eb5f1;
+        margin:0.3em;
+        padding:0.4em;
+    }
+    main{
+        background-color:skyblue;
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #features{
+        display: block;       
+    }
+    #features p{
+        font-size: 1.5em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    #features form{
+        display: flex;
+        justify-content:center;
+        margin:2em;
+        align-content: center;
+    }
+    #features input{
+        margin:0 0.7em;
+        padding:0.5em;
+        border-radius: 0.3em;
+    }
+    #features #submit{
+        border-radius: 2em;
+        color:whitesmoke;
+        background-color:#4eb5f1;
+        outline: none;
+    }
+    #features #submit:active{
+        background-color:hsl(202, 85%, 53%);
+    }
+    article{
+        margin:3em;
+        display: flex;
+        flex-direction: column;
+    }
+    article .heading
+    {
+        font-size:2.3em;
+        font-weight: 900;
+    }
+    article p{
+        font-size:1.5em;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding:1em;
+    }
+    .logo{
+        display: none;
+    }
+    .menu fieldset{
+        margin:1em;
+        padding:1em;
+    }
+    .menu fieldset p{
+        text-align: center;
+    }
+    .menu .name{
+        font-size: 1.7em;
+        font-weight: 600;
+    }   
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:100%;
+        background-color:hsla(197, 71%, 43%,0.9);
+    }
+    footer ul{
+        list-style:none;
+        display: flex;
+        justify-content: space-between;
+    }
+    footer li{
+        margin:0.3em 0.6em;
+    }
+    footer p{
+        margin:1em;
+    }
+
+}
